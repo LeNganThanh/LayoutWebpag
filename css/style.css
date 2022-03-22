@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Arapey", serif;
+  font-size: 1.2rem;
+}
+.news {
+    position: relative;
+    display: inline-block;
+    width: 90vmax;
+    min-width: 400px;
+    height: 70vh;
+    margin: 50px 10vmin;
+  }
+  
+/* The navigation side */
+.menu {
+  display: inline-block;
+  position: absolute;
+  width: 15vmax;
+  left: 8rem;
+  line-height: 2.5rem;
+  height: 50vh;
+  top: 8rem;
+}
+.menu h2{
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+.menu :is(a, li){
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    color: rgb(214, 218, 22);
+    font-weight: bold;
+}
+/* The main paragraph side */
+.post {
+    position: absolute;
+  display: inline-block;
+  width: 60vmax;
+  height: 66vh;
+  border: 2px solid gainsboro;
+  box-shadow: -5px 5px rgb(245, 243, 243);
+  right: 0;
+  top: 2rem;
+  overflow: hidden;
+  line-height: 1.8rem;
+
+}
+.post h2{
+    text-align: right;
+    padding: 1.5rem;
+}
+.post p{
+    margin-top: 3rem;
+    padding: 1.5rem;
+    text-align: justify;
+}
+span{
+    font-weight: bold;
+}
